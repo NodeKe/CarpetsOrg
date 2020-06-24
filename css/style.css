@@ -12,7 +12,7 @@ body{
 .header{
 	width: 100%;
 	height: 50px;
-	background-color: rgb(0,0,0,0.03);
+	background-color: lightgray;
 	position: fixed;
 	top: 0;
 	display: inline-block;
@@ -285,4 +285,34 @@ body{
 .about{
 	padding:10px;
 	line-height: 30px;
+}
+
+/**footer section**/
+
+.footer{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.footer .footer-links{
+	width: 50%;
+	height: 100px;
+	display: inline-block;
+	margin-left: 50%;
+	margin-top: 20px;
+}
+.footer .footer-links .links{
+	float: left;
+	width: 23%;
+	margin-left: 1.5%;
+	height: 100px;
+}
+.footer a{
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+.footer .copyright{
+	width: 100%;
+	height: 100px;
+	text-align: center;
 }
