@@ -81,7 +81,6 @@ body{
 	width: 100%;
 	align-items: center;
 	margin-top: -100px;
-	background-image: url(https://source.unsplash.com/1600x900/?blue);
 	background-attachment: fixed;
 }
 .topbar .topbar-header{
@@ -133,4 +132,39 @@ body{
 }
 .topbar .shop-now p{
 	padding-top: 10px;
+}
+
+
+/**featured Products section**/
+
+
+.featured{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.featured h2{
+	font-size: 40px;
+}
+.featured-prod{
+	width: 100%;
+	display: inline-block;
+	margin-top: 20px;
+}
+.featured-prod .featured-one,.featured-two{
+	float: left;
+	height: 300px;
+	width: 45%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.featured-prod .featured-img{
+	width: 90%;
+	border:1px solid rgb(0,0,0);
+	height: 250px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.featured-prod h4,p{
+	padding: 5px;
 }
